@@ -1,4 +1,4 @@
-Hasta ahora en esta película hay un gran personaje que está faltando: _el tablero_. Seguro está por aparecer, de forma trinfual y rimbombante..., ¿no?
+Hasta ahora en esta película hay un gran personaje que está faltando: _el tablero_. Seguro está por aparecer, de forma triunfal y rimbombante..., ¿no?
 
 
 No. En JavaScript, lamentamos informarte, no hay tablero.
