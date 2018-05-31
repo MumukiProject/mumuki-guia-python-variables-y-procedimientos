@@ -10,7 +10,7 @@ Utilizamos el operador `+` de una forma diferente, operando un string y un núme
 * si operamos dos strings con `+`, se concatenan
 * si operamos un string y un número `+`, se _convierte implícitamente_ el número a string, y luego se concatenan, al igual que antes
 
-En JavaScript, estas converciones implícitas, también llamadas _coerciones_, ocurren mucho.
+En JavaScript, estas conversiones implícitas, también llamadas _coerciones_, ocurren mucho.
 
 _¡Quizás incluso [más de lo que nos gustaría](https://archive.org/details/wat_destroyallsoftware)!_ :sweat:
 
