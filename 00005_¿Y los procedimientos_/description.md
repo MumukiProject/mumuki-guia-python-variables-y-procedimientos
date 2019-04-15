@@ -1,4 +1,4 @@
-En el ejercicio anterior, construiste una `function` que se ejecutaba con el sólo fin de print por pantalla. Y por ello, tuvimos que devolver un valor cualquiera. ¿No te huele mal?
+En el ejercicio anterior, construiste una función que se ejecutaba con el sólo fin de imprimir por pantalla. Y por ello, tuvimos que devolver un valor cualquiera. ¿No te huele mal?
 
 Además, hagamos memoria: cuando queremos reutilizar código, podíamos declarar:
 
@@ -7,7 +7,7 @@ Además, hagamos memoria: cuando queremos reutilizar código, podíamos declarar
 
 Entonces `versos_martin_fierro`, no es una función... ¡sino un procedimiento! ¿Cómo se declaran procedimientos en JavaScript?
 
-¡De la misma forma que las funciones!: usando la palabra clave `function`.
+¡De la misma forma que las funciones!: usando la palabra clave `def`.
 
 ```python
 def versos_martin_fierro():
