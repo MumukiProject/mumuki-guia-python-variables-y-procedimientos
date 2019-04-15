@@ -1,23 +1,23 @@
 var fakeConsole = {
   lines: [],
   log: function(line) {
-    this.lines.push(line + "\n");
-    console.log(line);
+    this.lines.push(line + "\n")
+    console.log(line)
   },
   toString: function() {
-    return String.prototype.concat.apply([], this.lines);
+    return String.prototype.concat.apply([], this.lines)
   }
-};
+}
 
 function longitud(secuencia) {
-  return secuencia.length; 
+  return secuencia.length
 }
 function rango(s, e) {
-  let r = [];
-  for (let i = s; i <= e; i++) {
+  let r = []
+  for (let i = s i <= e i++) {
      r.push(i)
   }
-  return r;
+  return r
 }
 
 function imprimir(s) {
@@ -25,5 +25,5 @@ function imprimir(s) {
 }
 
 function poner(a, e) {
-   array.push(e);
+   array.push(e)
 }

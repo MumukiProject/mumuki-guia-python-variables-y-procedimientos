@@ -1,16 +1,16 @@
 describe("", function() {
-  it("el aumentarFortuna duplica variable global pesosEnMiBilletera", function () {
-    pesosEnMiBilletera = 100;
-    aumentarFortuna();
-    assert.equal(pesosEnMiBilletera, 200);
-  });
+  it("el aumentar_fortuna duplica variable global pesos_en_mi_billetera", function () {
+    pesos_en_mi_billetera = 100
+    aumentar_fortuna()
+    assert.equal(pesos_en_mi_billetera, 200)
+  })
 
-  it("el aumentarFortuna se puede llamar múltiples veces", function () {
-    pesosEnMiBilletera = 30;
-    aumentarFortuna();
-    aumentarFortuna();
-    aumentarFortuna();
-    assert.equal(pesosEnMiBilletera, 240);
-  });
+  it("el aumentar_fortuna se puede llamar múltiples veces", function () {
+    pesos_en_mi_billetera = 30
+    aumentar_fortuna()
+    aumentar_fortuna()
+    aumentar_fortuna()
+    assert.equal(pesos_en_mi_billetera, 240)
+  })
 
 })

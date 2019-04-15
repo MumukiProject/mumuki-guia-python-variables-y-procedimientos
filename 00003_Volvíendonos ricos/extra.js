@@ -1,1 +1,1 @@
-var pesosEnMiBilletera = 0;
+var pesos_en_mi_billetera = 0

@@ -1,1 +1,1 @@
-var pesoPromedioPersonaEnKilogramos = 75;
+var pesoPromedioPersonaEnKilogramos = 75

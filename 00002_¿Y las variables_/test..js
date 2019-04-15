@@ -1,5 +1,5 @@
 describe("", function() {
-  it("pesosEnMiBilletera vale 100", function() {
-    assert.equal(pesosEnMiBilletera, 100);
+  it("pesos_en_mi_billetera vale 100", function() {
+    assert.equal(pesos_en_mi_billetera, 100)
   })
 })

@@ -1,6 +1,6 @@
 Volvamos un momento al código anterior. ¿Notás algo extraño en esta expresión?
 
-```javascript
+```python
 "La primera tirada dio " + primeraTirada
 ```
 
@@ -16,7 +16,7 @@ _¡Quizás incluso [más de lo que nos gustaría](https://archive.org/details/wa
 
 > Veamos si queda claro, escribí una función `elefantesEquilibristas`, que tome un número de elefantes y **devuelva** una rima de una conocida canción:
 >
-> ```javascript
+> ```python
 > ム elefantesEquilibristas(3)
 > "3 elefantes se balanceaban"
 > ム elefantesEquilibristas(462)

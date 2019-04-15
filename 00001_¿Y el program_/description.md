@@ -2,22 +2,22 @@ Ahora bien, más allá de que podamos consultar el resultado de una función a t
 
 La respuesta es tan simple como sorprendente: en JavaScript todo lo que escribamos fuera de una `function` será, implícitamente, dicho punto de entrada. Por ejemplo, si queremos un programa que imprime por pantalla el clásico `"Hola, mundo!"`, lo podremos escribir así:
 
-```javascript
-imprimir("Hola, mundo!");
+```python
+print("Hola, mundo!")
 ```
 
-O si queremos un programa que tire tres veces los dados e imprima sus resultados, podemos escribirlo así: 
+O si queremos un programa que tire tres veces los dados e imprima sus resultados, podemos escribirlo así:
 
-```javascript
-imprimir("Tirando dados");
+```python
+print("Tirando dados")
 
-let primeraTirada = tirarDado();
-let segundaTirada = tirarDado();
-let terceraTirada = tirarDado();
+let primeraTirada = tirar_dato()
+let segundaTirada = tirar_dato()
+let terceraTirada = tirar_dato()
 
-imprimir("La primera tirada dio " + primeraTirada);
-imprimir("La segunda tirada dio " + segundaTirada);
-imprimir("La tercera tirada dio " + terceraTirada);
+print("La primera tirada dio " + primeraTirada)
+print("La segunda tirada dio " + segundaTirada)
+print("La tercera tirada dio " + terceraTirada)
 ```
 
 > Escribí y enviá este programa

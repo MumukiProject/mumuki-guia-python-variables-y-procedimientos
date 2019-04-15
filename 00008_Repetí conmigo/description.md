@@ -12,10 +12,9 @@ program {
 
 Por ejemplo, si queremos tirar los dados 4 veces e imprimir su resultado, podríamos escribir lo siguiente:
 
-```javascript
-for(let numero of rango(1, 4)) {
-   imprimir("Salió el " + tirarDado())
-}
+```python
+for numero in range(1, 4):
+  print("Salió el " + tirar_dato())
 ```
 
 > Escribí un programa que dibuje un "cuadrado" de asteriscos de 4 por 4:
