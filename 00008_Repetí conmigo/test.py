@@ -1,5 +1,4 @@
-describe("", function() {
-  it("deberia ser un cuadrado de 4 x 4 asteriscos", function() {
-    assert.equal(fakeConsole.toString(), "****\n****\n****\n****\n")
-  })
-})
+  def test_deberia_ser_un_cuadrado_de_4_x_4_asteriscos(self):
+    self.assertEqual(fakeConsole.toString(), "****\n****\n****\n****\n")
+
+

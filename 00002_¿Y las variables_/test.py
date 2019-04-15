@@ -1,5 +1,5 @@
-describe("", function() {
-  it("pesos_en_mi_billetera vale 100", function() {
-    assert.equal(pesos_en_mi_billetera, 100)
-  })
-})
+describe("(self):
+  def test_pesos_en_mi_billetera vale 100(self):
+    self.assertEqual(pesos_en_mi_billetera, 100)
+
+
