@@ -1,7 +1,7 @@
-def funcionMisteriosa(n, m):
-  return 'w' + repeatChar('o', n) + repeatChar('w', m) + '!'
+def funcion_misteriosa(n, m):
+  return 'w' + repeat_char('o', n) + repeat_char('w', m) + '!'
 
 
-def repeatChar(c, n):
+def repeat_char(c, n):
   return new Array(n).fill(c).join('')
 
