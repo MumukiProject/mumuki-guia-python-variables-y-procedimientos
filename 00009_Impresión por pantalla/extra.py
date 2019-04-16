@@ -1,4 +1,4 @@
 def funcion_egocentrica():
-  imprimir("soy una función que imprime por pantalla")
-  imprimir("y estoy por devolver el valor 5")
+  print("soy una función que imprime por pantalla")
+  print("y estoy por devolver el valor 5")
   return 5

@@ -1,15 +1,26 @@
-Las variables no serían tan interesantes si no se pudieran modificar. Afortunadamente, JavaScript nos da nuevamente el gusto y nos lo permite:
-
-
-FIXME ESTE EJERCICIO NO FUNCIONA Y CONVENDRIA ELIMINARLO O MODIFICARLO
+Las variables no serían tan interesantes si no se pudieran modificar. Afortunadamente, Python nos da nuevamente el gusto y nos lo permite:
 
 ```python
+# inicializamos la variable...
+dias_sin_accidentes_con_velocirraptores = 0
+
+# ...y más adelante, la actualizamos
+dias_sin_accidentes_con_velocirraptores = dias_sin_accidentes_con_velocirraptores + 1
+```
+
+Sin embargo, hay que tener un cuidado particular si trabajamos con variables globales: si queremos modificarlas dentro de un procedimiento, deberemos
+volver a declararla como `global`:
+
+```python
+# inicializamos la variable al inicio de nuestro programa
+dias_sin_accidentes_con_velocirraptores = 0
+
 def pasar_un_dia_normal():
+  # indicamos a Python que vamos a realizar modificaciones sobre la variable global
+  global dias_sin_accidentes_con_velocirraptores
+
+  # dentro de un procedimiento, la actualizamos
   dias_sin_accidentes_con_velocirraptores = dias_sin_accidentes_con_velocirraptores + 1
-
-
-def tener_accidente_con_velocirraptores():
-  dias_sin_accidentes_con_velocirraptores = 0
 ```
 
 > ¡Ahora vamos a hacer algo de dinero :moneybag:!

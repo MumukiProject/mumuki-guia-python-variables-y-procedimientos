@@ -1,1 +1,1 @@
-var pesos_en_mi_billetera = 0
+pesos_en_mi_billetera = 0

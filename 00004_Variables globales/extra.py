@@ -1,1 +1,1 @@
-var pesoPromedioPersonaEnKilogramos = 75
+peso_promedio_persona_en_kilogramos = 75
