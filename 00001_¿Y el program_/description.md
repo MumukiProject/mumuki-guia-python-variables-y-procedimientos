@@ -15,9 +15,9 @@ primera_tirada = tirar_dato()
 segunda_tirada = tirar_dato()
 tercera_tirada = tirar_dato()
 
-print("La primera tirada dio ", primera_tirada)
-print("La segunda tirada dio ", segunda_tirada)
-print("La tercera tirada dio ", tercera_tirada)
+print("La primera tirada dio " + str(primera_tirada))
+print("La segunda tirada dio " + str(segunda_tirada))
+print("La tercera tirada dio " + str(tercera_tirada))
 ```
 
 > Escribí y enviá este programa
