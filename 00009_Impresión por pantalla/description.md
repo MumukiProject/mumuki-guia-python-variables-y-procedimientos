@@ -1,4 +1,4 @@
-Ahora que ya te convencimos de que no necesitamos al tablero, vamos a mostrarte que sí hay algo parecido en Python :stuck_out_tongue:: la impresión por pantalla. Veamos un ejemplo:
+Ya vimos que no necesitamos al tablero pero vamos a mostrarte que hay algo parecido en Python :stuck_out_tongue:: la impresión por pantalla. Veamos un ejemplo:
 
 ```python
 def funcion_egocentrica():
