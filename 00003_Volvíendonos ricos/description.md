@@ -8,8 +8,7 @@ dias_sin_accidentes_con_velocirraptores = 0
 dias_sin_accidentes_con_velocirraptores = dias_sin_accidentes_con_velocirraptores + 1
 ```
 
-Sin embargo, hay que tener un cuidado particular si trabajamos con variables globales: si queremos modificarlas dentro de un procedimiento, deberemos
-volver a declararla como `global`:
+Sin embargo, hay que tener un cuidado particular si trabajamos con variables globales: si queremos modificarlas dentro de un procedimiento, deberemos anteponer `global` a su nombre:
 
 ```python
 # inicializamos la variable al inicio de nuestro programa
