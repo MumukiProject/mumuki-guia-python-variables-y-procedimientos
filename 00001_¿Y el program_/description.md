@@ -1,6 +1,6 @@
-Ahora bien, más allá de que podamos consultar el resultado de una función a través de la consola, también aprendimos anteriormente que los programas tienen un punto de entrada: el `program`. ¿Dónde quedó?
+Ahora bien, más allá de que podamos consultar el resultado de una función a través de la consola, también aprendimos anteriormente que los programas tienen un punto de entrada: el `program`. Pero, ¿dónde quedó?
 
-La respuesta es tan simple como sorprendente: en Python todo lo que escribamos fuera de una `function` será, implícitamente, dicho punto de entrada. Por ejemplo, si queremos un programa que imprime por pantalla el clásico `"Hola, mundo!"`, lo podremos escribir así:
+La respuesta es tan simple como sorprendente: en Python todo lo que escribamos fuera de un `def` será, implícitamente, dicho punto de entrada. Por ejemplo, si queremos un programa que imprime por pantalla el clásico `"Hola, mundo!"`, lo podremos escribir así:
 
 ```python
 print("Hola, mundo!")
@@ -11,15 +11,15 @@ O si queremos un programa que tire tres veces los dados e imprima sus resultados
 ```python
 print("Tirando dados")
 
-primera_tirada = tirar_dato()
-segunda_tirada = tirar_dato()
-tercera_tirada = tirar_dato()
+primera_tirada = tirar_dado()
+segunda_tirada = tirar_dado()
+tercera_tirada = tirar_dado()
 
 print("La primera tirada dio " + str(primera_tirada))
 print("La segunda tirada dio " + str(segunda_tirada))
 print("La tercera tirada dio " + str(tercera_tirada))
 ```
 
-> Escribí y enviá este programa
+> Escribí y enviá este programa.
 
 

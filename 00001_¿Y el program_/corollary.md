@@ -6,4 +6,4 @@ No, para nada, es que simplemente no te estamos mostrando lo que sale por pantal
 
 Moraleja: en los ejercicios que quedan, **no uses `print` salvo que te lo pidamos explícitamente**.
 
-¡Nos vemos en el próximo ejercicio!
+¡Nos vemos en el próximo ejercicio! :eyes:

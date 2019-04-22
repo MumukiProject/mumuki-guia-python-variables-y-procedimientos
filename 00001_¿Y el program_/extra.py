@@ -1,3 +1,4 @@
-function tirar_dato() {
-    return Math.floor(Math.random() * 6) + 1
-}
+import random
+
+def tirar_dado():
+  return random.randint(1, 6)
