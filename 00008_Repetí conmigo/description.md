@@ -1,4 +1,4 @@
-Llegó el turno de otra estructura de control de flujo: la repetición simple. Que si mal no te acordás, era algo como lo siguiente...
+Llegó el turno de otra estructura de control de flujo: la repetición simple, ¿te acordás? En Gobstones era algo como lo siguiente...
 
 ```gobstones
 program {
@@ -14,7 +14,7 @@ Por ejemplo, si queremos tirar los dados 4 veces e imprimir su resultado, podrí
 
 ```python
 for numero in range(1, 4):
-  print("Salió el " + tirar_dato())
+  print("Salió el " + str(tirar_dado()))
 ```
 
 > Escribí un programa que dibuje un "cuadrado" de asteriscos de 4 por 4:
