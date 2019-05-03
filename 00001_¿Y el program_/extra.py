@@ -1,3 +1,5 @@
+import random
+
 def tirar_dado():
-  return 6
+  return random.randint(1, 6)
   
