@@ -1,0 +1,3 @@
+def dibujar_cuadrado():
+  
+  
