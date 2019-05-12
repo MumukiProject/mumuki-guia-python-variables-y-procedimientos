@@ -11,13 +11,9 @@ O si queremos un programa que tire tres veces los dados e imprima sus resultados
 ```python
 print("Tirando dados")
 
-primera_tirada = tirar_dado()
-segunda_tirada = tirar_dado()
-tercera_tirada = tirar_dado()
-
-print("La primera tirada dio " + str(primera_tirada))
-print("La segunda tirada dio " + str(segunda_tirada))
-print("La tercera tirada dio " + str(tercera_tirada))
+print("La primera tirada es " + str(tirar_dado()))
+print("La segunda tirada es " + str(tirar_dado()))
+print("La tercera tirada es " + str(tirar_dado()))
 ```
 
 > Escribí y enviá este programa.

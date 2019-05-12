@@ -1,4 +1,4 @@
-Como vimos antes, Python también tiene variables, a las que les podemos asignar valores. Por ejemplo:
+¡Python también tiene variables a las que les podemos asignar valores! Por ejemplo:
 
 ```python
 dia_favorito = "viernes"
