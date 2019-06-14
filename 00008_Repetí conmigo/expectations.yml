@@ -4,5 +4,5 @@ expectations:
   binding: "*"
   inspection: Except:DoesConsolePrint
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
+  binding: Intransitive:*
   inspection: UsesLoop
