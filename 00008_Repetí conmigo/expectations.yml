@@ -5,4 +5,4 @@ expectations:
   inspection: Except:DoesConsolePrint
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: UsesForeach
+  inspection: UsesRepeat
