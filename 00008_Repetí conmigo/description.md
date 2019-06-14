@@ -13,7 +13,7 @@ program {
 Por ejemplo, si queremos tirar los dados 4 veces e imprimir su resultado, podríamos escribir lo siguiente:
 
 ```python
-for numero in range(1, 4):
+for numero in range(0, 4):
   print("Salió el " + str(tirar_dado()))
 ```
 
