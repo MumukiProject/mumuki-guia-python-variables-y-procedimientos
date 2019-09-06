@@ -1,4 +1,8 @@
-¡Sorpresa! Podemos declarar variables tanto directamente en el programa, como dentro de un `def`:
+Entonces, ¿es necesario darle valor a nuestras variables antes de usarlas?
+
+¡Si! :smile: Cuando declarás una variable tenés que darle un valor inicial, lo cual se conoce como _inicializar_ la variable.
+
+¡Y sorpresa! Podemos declarar variables tanto directamente en el programa, como dentro de un `def`:
 
 ```python
 def cuenta_misteriosa(numero):
