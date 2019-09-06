@@ -6,3 +6,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresFunction:perimetro_circulo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: area_circulo
+  inspection: Uses:pi
