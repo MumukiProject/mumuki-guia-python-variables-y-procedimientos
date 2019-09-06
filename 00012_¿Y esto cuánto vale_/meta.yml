@@ -4,6 +4,7 @@ layout: input_right
 editor: single_choice
 type: problem
 extra_visible: false
+language: text
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
@@ -17,7 +18,7 @@ choices:
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: '20'
-  checked: false
+  checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: 'True'
   checked: false
