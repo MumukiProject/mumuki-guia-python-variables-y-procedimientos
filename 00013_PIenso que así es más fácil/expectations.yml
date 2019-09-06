@@ -9,3 +9,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: area_circulo
   inspection: Uses:pi
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: perimetro_circulo
+  inspection: Uses:pi
