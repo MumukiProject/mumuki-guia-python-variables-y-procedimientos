@@ -4,4 +4,4 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_tests_failed:
     - Utiliza global
-  then: Recordá anteponer `global` antes de intentar modificar la variable
+  then: Recordá anteponer `global` antes de intentar modificar la variable `pesos_en_mi_billetera`
