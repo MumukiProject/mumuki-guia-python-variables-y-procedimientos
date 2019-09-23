@@ -13,7 +13,7 @@ def cuenta_misteriosa(numero):
     return 0
 ```
 
-Las variables declaradas dentro de un `def`, conocidas como _variables locales_, no presentan mayor misterio. Sin embargo, hay que tener un particular cuidado :warning:: sólo se pueden utilizar dentro del `def` en cuestión. Si quiero referenciarla desde un programa:
+Las variables declaradas dentro de un `def`, conocidas como _variables locales_, no presentan mayor misterio. Sin embargo, hay que tener un particular cuidado :warning: ya que sólo se pueden utilizar dentro del `def` en cuestión. Si quiero referenciarla desde un programa:
 
 ```python
 el_cuadruple = el_doble * 4
