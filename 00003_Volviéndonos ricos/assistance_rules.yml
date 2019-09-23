@@ -1,0 +1,6 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    error_contains: UnboundLocalError
+  then: Recordá anteponer `global` al nombre de la variable antes de modificarla.
