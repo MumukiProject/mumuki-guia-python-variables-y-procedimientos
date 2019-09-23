@@ -3,7 +3,7 @@ Ya que vas entendiendo cómo se **asignan** las variables, te traemos algo para 
 Tenemos esta función definida:
 
 ``` python
-def suma_sin_sentido()
+def suma_sin_sentido():
 	return numero + 8
 ```
 
