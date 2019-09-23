@@ -13,6 +13,14 @@
     aumentar_fortuna()
     aumentar_fortuna()
     self.assertEqual(pesos_en_mi_billetera, 240)
-
-
+    
+  def test_utiliza_global(self):
+    global pesos_en_mi_billetera
+    pesos_en_mi_billetera = 0
+    try:
+      aumentar_fortuna()
+    except UnboundLocalError:
+      self.fail("Se modifica la variable sin anteponer global")
+    except BaseException:
+      pass
 
