@@ -9,4 +9,4 @@ def cuenta_loca():
   return numero
 ```
 
-> ¿Qué devuelve cuenta_loca?
+> ¿Qué devuelve `cuenta_loca`?
