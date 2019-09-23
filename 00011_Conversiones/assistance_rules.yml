@@ -1,0 +1,7 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    error_contains: unsupported operand type
+  then: Acordate de que para concatenar un número antes es necesario convertirlo en
+    `string`
