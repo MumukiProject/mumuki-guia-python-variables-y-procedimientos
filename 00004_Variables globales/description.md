@@ -35,4 +35,4 @@ def puede_llevar(peso_equipaje):
 > Tené en cuenta que nuestra función va a utilizar dos variables globales:
 >
 * `peso_promedio_persona_en_kilogramos`, la cual ya está declarada,
-* `carga_maxima_en_kilogramos` que vas tenés que declarar.
+* `carga_maxima_en_kilogramos` que vas a tener que declarar.
