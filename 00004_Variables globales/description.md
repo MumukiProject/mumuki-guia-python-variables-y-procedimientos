@@ -30,7 +30,7 @@ def puede_llevar(peso_equipaje):
   return peso_equipaje <= peso_maximo_del_equipaje_en_gramos
 ```
 
-> Veamos si queda claro: escribí una función `ascensor_sobrecargado`, que toma una cantidad de personas y dice si entre todas superan la carga máxima de 300 kg.
+> Veamos si queda claro: definí la función `ascensor_sobrecargado`, que toma una cantidad de personas y dice si entre todas superan la carga máxima de 300 kg.
 >
 > Tené en cuenta que nuestra función va a utilizar dos variables globales:
 >
