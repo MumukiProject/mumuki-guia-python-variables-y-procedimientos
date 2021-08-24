@@ -2,4 +2,4 @@ En programación buscamos resolver nuestros problemas usando… programas :stuck
 
 Considerando al número pi igual a `3.14159265358979` (no es infinito pero lo suficientemente preciso para nuestros cáculos):
 
-> Definí las funciones `perimetro_circulo` y `area_circulo` que reciben el radio de un círculo y a partir del mismo nos devuelven su perímetro y su área.
+> Definí las funciones `perimetro_circulo` y `area_circulo` que reciben el radio de un círculo y a partir del mismo nos retornan su perímetro y su área.

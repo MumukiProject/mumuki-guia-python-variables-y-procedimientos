@@ -5,7 +5,7 @@ Además, hagamos memoria: cuando queremos reutilizar código, podíamos declarar
 * _funciones_, que siempre devuelven algo y no producen ningún efecto
 * _procedimientos_, que no devuelven nada, y producen efectos
 
-Entonces `versos_martin_fierro`, no es una función... ¡sino un procedimiento! ¿Cómo se declaran procedimientos en Python?
+Entonces `versos_martin_fierro`, no es una función... ¡sino un procedimiento! ¿Cómo se definen procedimientos en Python?
 
 ¡De la misma forma que las funciones!: usando la palabra clave `def`.
 

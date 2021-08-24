@@ -7,7 +7,7 @@ y estoy por devolver el valor 5
 
 Sin embargo, sólo podemos escribir strings y, una vez que escribimos en la pantalla, no hay vuelta atrás: no hay forma de retroceder o deshacer.
 
-> Veamos si va quedando claro, escribí una función `versos_martin_fierro` que imprima por pantalla los primeros versos del Martín Fierro:
+> Veamos si va quedando claro, definí la función `versos_martin_fierro` que imprima por pantalla los primeros versos del Martín Fierro:
 >
 >```
 > Aquí me pongo a cantar

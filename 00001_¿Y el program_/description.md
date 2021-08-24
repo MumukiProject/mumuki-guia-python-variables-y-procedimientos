@@ -16,6 +16,6 @@ print("La segunda tirada es " + str(tirar_dado()))
 print("La tercera tirada es " + str(tirar_dado()))
 ```
 
-> Escribí y enviá este programa.
+> Definí y enviá este programa.
 
 
